@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Tumblaiinnnn launch thumbnail</title>
+  <desc id="desc">Launch page concept thumbnail</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f123e"/>
+      <stop offset="50%" stop-color="#2a1060"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ad5"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="36" fill="url(#bg)"/>
+  <rect x="60" y="70" width="680" height="360" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)"/>
+  <circle cx="150" cy="150" r="56" fill="#ff6ad5" opacity="0.9"/>
+  <circle cx="650" cy="120" r="44" fill="#67e8f9" opacity="0.9"/>
+  <rect x="100" y="120" width="280" height="16" rx="8" fill="white" opacity="0.9"/>
+  <rect x="100" y="150" width="220" height="12" rx="6" fill="rgba(255,255,255,0.75)"/>
+  <rect x="100" y="180" width="180" height="12" rx="6" fill="rgba(255,255,255,0.55)"/>
+  <rect x="100" y="250" width="220" height="54" rx="18" fill="url(#accent)"/>
+  <text x="126" y="286" fill="#140922" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">Explore Tumblaiinnnn</text>
+  <rect x="430" y="120" width="240" height="150" rx="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+  <circle cx="470" cy="170" r="34" fill="#67e8f9" opacity="0.8"/>
+  <rect x="520" y="150" width="110" height="12" rx="6" fill="rgba(255,255,255,0.85)"/>
+  <rect x="520" y="178" width="90" height="10" rx="5" fill="rgba(255,255,255,0.55)"/>
+  <rect x="430" y="310" width="80" height="22" rx="11" fill="#ff6ad5" opacity="0.85"/>
+  <rect x="530" y="310" width="80" height="22" rx="11" fill="#67e8f9" opacity="0.85"/>
+  <text x="80" y="430" fill="white" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Tumblaiinnnn Launch</text>
+</svg>

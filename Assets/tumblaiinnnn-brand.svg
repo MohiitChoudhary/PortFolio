@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Tumblaiinnnn brand thumbnail</title>
+  <desc id="desc">Brand kit concept thumbnail</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180820"/>
+      <stop offset="100%" stop-color="#2b1150"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff6ad5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="36" fill="url(#bg)"/>
+  <rect x="70" y="80" width="660" height="340" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <circle cx="170" cy="170" r="70" fill="url(#accent)" opacity="0.88"/>
+  <circle cx="650" cy="130" r="44" fill="#ffd166" opacity="0.85"/>
+  <path d="M170 110L240 220L170 330L100 220Z" fill="rgba(255,255,255,0.92)"/>
+  <rect x="120" y="260" width="170" height="18" rx="9" fill="rgba(255,255,255,0.9)"/>
+  <rect x="120" y="292" width="140" height="12" rx="6" fill="rgba(255,255,255,0.65)"/>
+  <rect x="340" y="140" width="250" height="18" rx="9" fill="white" opacity="0.9"/>
+  <rect x="340" y="175" width="210" height="12" rx="6" fill="rgba(255,255,255,0.75)"/>
+  <rect x="340" y="205" width="190" height="12" rx="6" fill="rgba(255,255,255,0.55)"/>
+  <rect x="340" y="255" width="110" height="28" rx="14" fill="url(#accent)"/>
+  <rect x="470" y="255" width="110" height="28" rx="14" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)"/>
+  <text x="80" y="430" fill="white" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Tumblaiinnnn Brand Kit</text>
+</svg>

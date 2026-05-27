@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">DeepScan thumbnail</title>
+  <desc id="desc">Abstract thumbnail for the DeepScan project</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="36" fill="url(#bg)"/>
+  <circle cx="640" cy="120" r="88" fill="#67e8f9" opacity="0.28"/>
+  <circle cx="160" cy="370" r="120" fill="#8b5cf6" opacity="0.24"/>
+  <rect x="80" y="90" width="260" height="320" rx="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="120" y="140" width="180" height="18" rx="9" fill="#67e8f9" opacity="0.9"/>
+  <rect x="120" y="180" width="150" height="12" rx="6" fill="rgba(255,255,255,0.7)"/>
+  <rect x="120" y="215" width="130" height="12" rx="6" fill="rgba(255,255,255,0.5)"/>
+  <rect x="120" y="250" width="160" height="12" rx="6" fill="rgba(255,255,255,0.4)"/>
+  <path d="M410 170C460 130 540 130 590 170" stroke="url(#accent)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M410 230C460 190 540 190 590 230" stroke="rgba(255,255,255,0.76)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M410 290C460 250 540 250 590 290" stroke="rgba(255,255,255,0.5)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="590" cy="300" r="44" fill="none" stroke="#67e8f9" stroke-width="8"/>
+  <path d="M590 282L590 318M572 300L608 300" stroke="#67e8f9" stroke-width="8" stroke-linecap="round"/>
+  <text x="80" y="430" fill="white" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">DeepScan</text>
+</svg>

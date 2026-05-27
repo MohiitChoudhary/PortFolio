@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Tumblaiinnnn visual system thumbnail</title>
+  <desc id="desc">Visual system and illustration concept thumbnail</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#ff6ad5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="36" fill="url(#bg)"/>
+  <rect x="70" y="80" width="660" height="340" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+  <circle cx="200" cy="185" r="80" fill="#67e8f9" opacity="0.88"/>
+  <circle cx="600" cy="180" r="94" fill="#ff6ad5" opacity="0.82"/>
+  <circle cx="380" cy="250" r="92" fill="none" stroke="url(#accent)" stroke-width="10"/>
+  <path d="M140 330C240 280 320 280 420 330" stroke="rgba(255,255,255,0.85)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M420 330C520 280 620 280 720 330" stroke="rgba(255,255,255,0.55)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <rect x="110" y="120" width="140" height="14" rx="7" fill="white" opacity="0.9"/>
+  <rect x="110" y="150" width="110" height="10" rx="5" fill="rgba(255,255,255,0.65)"/>
+  <text x="80" y="430" fill="white" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Tumblaiinnnn Visual System</text>
+</svg>
