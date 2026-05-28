@@ -3,9 +3,10 @@ const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const CORS_ORIGINS = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(",") : ["*"];
+const corsOrigin = process.env.CORS_ORIGINS || "*";
+const corsOptions = corsOrigin === "*" ? {} : { origin: corsOrigin.split(',') };
 
-app.use(cors({ origin: CORS_ORIGINS }));
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get("/", (req, res) => {
