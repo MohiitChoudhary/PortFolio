@@ -308,9 +308,32 @@ function initContactForm() {
       return;
     }
 
-    // Demo-only: no network request. Keep fast and self-contained.
-    note.textContent = "Thanks — message prepared. (Demo mode: no email is sent.)";
-    form.reset();
+    const defaultBackendUrl = "http://localhost:5000/contact";
+    const backendUrl = form.dataset.backendUrl?.trim() || defaultBackendUrl;
+
+    note.textContent = "Sending message…";
+
+    fetch(backendUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, message }),
+    })
+      .then((res) => {
+        if (!res.ok) {
+          return res.json().then((body) => {
+            throw new Error(body.error || "Unable to send message");
+          });
+        }
+        return res.json();
+      })
+      .then((result) => {
+        note.textContent = result.message || "Message sent successfully.";
+        form.reset();
+      })
+      .catch((error) => {
+        note.textContent = "Sorry, something went wrong. Please try again.";
+        console.error("Contact submit error:", error);
+      });
   });
 }
 
